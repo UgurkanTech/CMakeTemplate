@@ -1,0 +1,15 @@
+{
+    "terminal.integrated.env.windows": {
+        "PATH": "${env:PATH};C:\\msys64\\ucrt64\\bin"
+    },
+    
+    "cmake.configureOnOpen": true,
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.generator": "Ninja",
+    "files.associations": {
+        "string": "cpp",
+        "format": "cpp",
+        "iostream": "cpp"
+    }
+    
+}
