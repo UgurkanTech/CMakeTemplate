@@ -44,6 +44,9 @@
             "MIMode": "lldb",
             "stopAtConnect": true,
             "externalConsole": true,
+            "linux": {
+                "miDebuggerPath": "/usr/bin/gdb",
+            },
         },
         {
             "name": "Windows Launch",
